@@ -14,7 +14,7 @@ import { Lesson3Component } from './Components/lesson3/lesson3.component';
 import { Lesson2Component } from './Components/lesson2/lesson2.component';
 
 const routes: Routes = [
-  {path:"Lesson1",component:Lesson1Component},
+  {path:"",component:Lesson1Component},
   {path:"Lesson2",component:Lesson2Component},
   {path:"Lesson3",component:Lesson3Component},
   {path:"Lesson4",component:Leson4Component},
@@ -25,7 +25,7 @@ const routes: Routes = [
   {path:"Lesson9",component:Lesson9Component},
   {path:"Lesson10",component:Lesson10Component},
   {path:"Lesson11",component:Lesson11Component},
-  {path:"",component:ExercicesComponent}
+ 
 ];
 
 @NgModule({
