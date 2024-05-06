@@ -17,7 +17,7 @@ this.state=!this.state;
 
   Previous()
   {
-    this.route.navigate(['./Lesson1']);
+    this.route.navigate(['./']);
   }
   Next()
   {

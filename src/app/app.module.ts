@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ExercicesComponent } from './Components/exercices/exercices.component';
+
 import { FormsModule } from '@angular/forms';
 import { Leson4Component } from './Components/leson4/leson4.component';
 import { Leson5Component } from './Components/leson5/leson5.component';
@@ -20,7 +20,6 @@ import { Lesson3Component } from './Components/lesson3/lesson3.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ExercicesComponent,
     Leson4Component,
     Leson5Component,
     Lesson6Component,
